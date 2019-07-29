@@ -5,19 +5,19 @@ html, body{
 
 #paralax-cont{
     height: 700px;
-    background-image: url('../img/img2.jpg');
+    background-image: url('../img/img1.jpg');
     flex-direction: column;
     justify-content: center;
 }
 
 #paralax-cont a:hover{
-    color: #cccccc;
     text-decoration: none;
 }
 
 .uk-container-expand{
     background-color: #f8f8f8;
     min-height: 100%;
+    padding-bottom: 100px;
 }
 
 nav.uk-navbar-container{
@@ -38,6 +38,11 @@ nav.uk-navbar-container{
     border-top: 2px solid #e5e5e5;
 }
 
+@media only screen and (max-width: 900px) {
+    .uk-navbar-nav > li > a{
+        font-size: 20px;
+    }
+}
 
 @media only screen and (max-width: 720px) {
     #paralax-cont{
