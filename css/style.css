@@ -1,0 +1,77 @@
+html, body{
+    min-height: 100%;
+    height: 100%;
+}
+
+#paralax-cont{
+    height: 700px;
+    background-image: url('../img/img2.jpg');
+    flex-direction: column;
+    justify-content: center;
+}
+
+#paralax-cont a:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.uk-container-expand{
+    background-color: #f8f8f8;
+    min-height: 100%;
+}
+
+nav.uk-navbar-container{
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #888888;
+}
+
+.uk-navbar-nav > li > a{
+    font-size: 30px;
+}
+
+.uk-container-small{
+
+}
+
+.footer h2{
+    padding-top: 10px;
+    border-top: 2px solid #e5e5e5;
+}
+
+
+@media only screen and (max-width: 720px) {
+    #paralax-cont{
+        height: 500px;
+    }
+
+    .uk-heading-xlarge{
+        font-size: 3rem;
+    }
+
+    .uk-heading-small{
+        font-size: 1.5rem;
+    }
+
+    .uk-navbar-center, .uk-navbar-nav{
+        width: 100%;
+    }
+
+    .uk-navbar-nav{
+        flex-direction: column;
+    }
+
+    .uk-navbar-nav > li:first-child > a{
+        border-top: none;
+    }
+
+    .uk-navbar-nav > li > a{
+        font-size: 25px;
+        min-height: 50px;
+        border-top: 1px solid #888888;
+    }
+
+    .uk-text-large {
+        font-size: 1.1rem;
+    }
+
+}
